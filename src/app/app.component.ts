@@ -8,7 +8,7 @@ import { Featured } from './models/featured.model';
 })
 export class AppComponent {
 
-  FeaturedInfo: Featured[] = [
+  featuredArticles: Featured[] = [
     new Featured('http://res.cloudinary.com/sagacity/image/upload/c_crop,h_666,w_1000,x_0,y_0/c_limit,w_1080/v1442255180/shutterstock_307495625_mxf5jf.jpg', 'Portland', 'Best bridges in Portland'),
     new Featured('http://img.timeinc.net/time/2010/portland_tavel/portland_park.jpg', 'Portland', 'Your guide to Portland parks'),
     new Featured('http://4.bp.blogspot.com/-mNBkQs58tAw/U3JdKA8cK3I/AAAAAAAAH1w/LglMQ96EgaM/s1600/_IGP2944.JPG', 'Portland', 'Best hikes within 45 minutes of Portland'),

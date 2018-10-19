@@ -1,3 +1,11 @@
-<p>
-  featured-article works!
-</p>
+<div class="featured-article" *ngFor="let article of childFeaturedArticles">>
+  <div class="">
+    <img src="{{article.picture}}">
+  </div>
+  <div>
+    <p>{{article.category}}</p>
+  </div>
+  <div>
+    <p>{{article.title}}</p>
+  </div>
+</div>

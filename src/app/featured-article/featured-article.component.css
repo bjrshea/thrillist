@@ -1,0 +1,12 @@
+.featured-article-wrapper {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: inline-block;
+  background-color: white;
+}
+
+.feature-pictures img {
+  max-width: 100%;
+  max-height: 100%;
+}

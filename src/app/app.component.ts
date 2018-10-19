@@ -15,4 +15,8 @@ export class AppComponent {
     new Featured('https://assets3.thrillist.com/v1/image/1575694/size/tmg-article_default_mobile.jpg', 'Portland', 'Best vegan restaurants in Portland'),
     new Featured('https://upload.wikimedia.org/wikipedia/commons/6/64/NYPizzaPie.jpg', 'Portland', 'Best pizza joint in Portland')
   ]
+
+  bigFeaturedArticles: Featured[] = [
+    new Featured('https://www.teamunify.com/pnws2/_images/cust_bg_203_1315415959177.jpg', 'Travel', 'Places to visit in the Pacific Northwest')
+  ]
 }

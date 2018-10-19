@@ -1,6 +1,4 @@
-.wrapper {
-  max-width: 950px;
-  margin: 3% auto;
+.jumbo-wrapper {
   position: relative;
 }
 
@@ -13,6 +11,7 @@
 .jumbo-category {
   position: absolute;
   font-family: 'Lato', sans-serif;
+  font-weight: 700;
   font-size: 12px;
   background-color: red;
   color: white;
@@ -26,6 +25,7 @@
 .jumbo-title {
   position: absolute;
   font-family: 'Lato', sans-serif;
+  font-weight: 700;
   font-size: 24px;
   background-color: white;
   top: 70%;

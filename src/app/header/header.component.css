@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 2px red;
+}
+
+.logo {
+  background-color: red;
+}
+
+.header-left li {
+  list-style: none;
+  display: inline;
+}
+
+.header-right li {
+  list-style: none;
+  display: inline;
+}

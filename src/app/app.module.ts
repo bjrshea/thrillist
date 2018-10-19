@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FeaturedArticleComponent } from './featured-article/featured-article.component';
 import { JumboArticleComponent } from './jumbo-article/jumbo-article.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { JumboArticleComponent } from './jumbo-article/jumbo-article.component';
     AppComponent,
     HeaderComponent,
     FeaturedArticleComponent,
-    JumboArticleComponent
+    JumboArticleComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,9 @@
+.wrapper {
+  max-width: 950px;
+  margin: 3% auto;
+}
+
+.jumbo-pictures img {
+  max-width: 100%;
+  max-height: 100%;
+}

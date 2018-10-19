@@ -1,11 +1,13 @@
-<div class="featured-article-wrapper" *ngFor="let article of childFeaturedArticles">
-  <div class="featured-pictures">
-    <img src="{{article.picture}}">
-  </div>
-  <div>
-    <p>{{article.category}}</p>
-  </div>
-  <div>
-    <p>{{article.title}}</p>
+<div class="wrapper">
+  <div class="article-wrapper" *ngFor="let article of childFeaturedArticles">
+    <div class="featured-pictures">
+      <img src="{{article.picture}}">
+    </div>
+    <div>
+      <p>{{article.category}}</p>
+    </div>
+    <div>
+      <p>{{article.title}}</p>
+    </div>
   </div>
 </div>

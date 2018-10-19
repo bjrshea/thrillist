@@ -1,4 +1,9 @@
-.featured-article-wrapper {
+.wrapper {
+  max-width: 950px;
+  margin: 3% auto;
+}
+
+.article-wrapper {
   width: 200px;
   height: 200px;
   border: 1px solid black;

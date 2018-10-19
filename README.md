@@ -10,7 +10,29 @@ If you're looking for good food, drink, or attractions in city that's unfamiliar
 
 As a class project, I re-created Thrillist's homepage using Angular. The site is constructed using multiple components and models to resemble the real thing.
 
-DISCLAIMER: This is still a work in progress and likely won't be complete until the end of the month.
+## Construction
+
+Model
+  |
+  | - - App Component
+            |
+            | - - Header Component
+            |
+            | - - Jumbo Article Component
+            |
+            | - - Featured Article Component
+            |
+            | - - Featured Movie Component
+            |
+            | - - Footer Component
+
+**Model:** houses the construction that's used to build the data structures in the app component.
+**App Component:** houses the data that is passed down to the children component.
+**Header Component:** hard coded header information.
+**Jumbo Article Component:** pulls data from the `bigFeaturedArticles` array in the app component.
+**Featured Article Component:** pulls data from the `featuredArticles` array in the app component.
+**Featured Movie Component:** pulls data from the `bigFeaturedMovies` array in the app component.
+**Header Component:** hard coded footer information.
 
 
 ## Install Instructions

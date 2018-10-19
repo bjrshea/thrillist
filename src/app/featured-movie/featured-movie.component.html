@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <div class="movie-wrapper" *ngFor="let movie of childBigFeaturedMovies">
+    <div class="featured-movies">
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/3aIIzSsCjfI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="featured-category">
+      <p>{{movie.category}}</p>
+    </div>
+    <div class="featured-title">
+      <p>{{movie.title}}</p>
+    </div>
+  </div>
+</div>

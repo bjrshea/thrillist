@@ -1,27 +1,50 @@
-# Thrillist
+# Thrillist Re-Creation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+#### Epicodus project, 10.19.18
 
-## Development server
+#### By Brendan Shea
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+If you're looking for good food, drink, or attractions in city that's unfamiliar for to you, Thrillist is your spot.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+As a class project, I re-created Thrillist's homepage using Angular. The site is constructed using multiple components and models to resemble the real thing.
 
-## Build
+DISCLAIMER: This is still a work in progress and likely won't be complete until the end of the month.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Install Instructions
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+From the root:
 
-## Running end-to-end tests
+* `npm install -g @angular/cli@1.6.5`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+From the desktop:
 
-## Further help
+* `git clone https://github.com/bjrshea/thrillist.git`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+From the project directory:
+
+* `npm install`
+* `npm run build`
+* `npm run start`
+
+## Contribution Requirements
+
+1. Clone the repo
+1. Make a new branch
+1. Commit and push your changes
+1. Create a PR
+
+## Technologies Used
+
+* JavaScript
+* Angular
+* Typescript
+* Node.js
+* Bootstrap
+* Webpack
+
+## Links
+
+* [Thrillist](https://www.thrillist.com/)

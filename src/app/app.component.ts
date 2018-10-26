@@ -16,17 +16,3 @@ export class AppComponent {
     new Featured('https://www.youtube.com/embed/3aIIzSsCjfI', 'FOOD & DRINK', 'Ramen pizza -- really dough?')
   ]
 }
-
-// { "bigFeaturedArticles": [{
-//     "picture": "https://www.teamunify.com/pnws2/_images/cust_bg_203_1315415959177.jpg",
-//     "category": "TRAVEL",
-//     "title": "BEST PLACES TO VISIT IN THE PACIFIC NORTHWEST"
-//   }]
-// }
-//
-// { "bigFeaturedMovies": [{
-//     "picture": "https://www.youtube.com/embed/3aIIzSsCjfI",
-//     "category": "FOOD & DRINK",
-//     "title": "Ramen pizza -- really dough?"
-//   }]
-// }

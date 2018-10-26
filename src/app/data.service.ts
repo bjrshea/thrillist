@@ -4,14 +4,26 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 
 @Injectable()
 export class DataService {
-  data: FirebaseListObservable<any[]>;
+  featuredArticleData: FirebaseListObservable<any[]>;
+  jumboArticleData: FirebaseListObservable<any[]>;
+  featuredMovieData: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) {
-    this.data = database.list('featuredArticles');
+    this.featuredArticleData = database.list('featuredArticles');
+    this.jumboArticleData = database.list('jumboArticles');
+    this.jumboArticleData = database.list('featuredMovies');
   }
 
-  getData(){
-  return this.data;
-}
+  getFeaturedArticleData(){
+    return this.featuredArticleData;
+  }
+
+  getjumboArticleData(){
+    return this.jumboArticleData;
+  }
+
+  getFeaturedMovieData(){
+    return this.featuredMovieData;
+  }
 
 }

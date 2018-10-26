@@ -10,11 +10,11 @@ import { FirebaseListObservable } from 'angularfire2/database';
   providers: [DataService]
 })
 export class FeaturedArticleComponent implements OnInit {
-  childFeaturedArticles: FirebaseListObservable<any[]>;
+  featuredArticles: FirebaseListObservable<any[]>;
 
   constructor(private dataService: DataService){}
 
   ngOnInit(){
-    this.childFeaturedArticles = this.dataService.getData();
+    this.featuredArticles = this.dataService.getFeaturedArticleData();
   }
 }

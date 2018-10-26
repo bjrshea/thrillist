@@ -4,6 +4,10 @@
   padding: 15px 0;
 }
 
+.footer:hover {
+  cursor: pointer;
+}
+
 .links li {
   list-style: none;
   display: inline;

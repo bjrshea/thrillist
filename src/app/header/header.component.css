@@ -5,6 +5,10 @@
   background-color: white;
 }
 
+.header:hover {
+  cursor: pointer;
+}
+
 .logo {
   background-color: red;
   color: white;

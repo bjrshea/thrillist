@@ -9,6 +9,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
   styleUrls: ['./featured-article.component.css'],
   providers: [DataService]
 })
+
 export class FeaturedArticleComponent implements OnInit {
   featuredArticles: FirebaseListObservable<any[]>;
 

@@ -1,4 +1,4 @@
-<div class="wrapper" *ngFor="let jumboArticle of childBigFeaturedArticles">
+<div class="wrapper" *ngFor="let jumboArticle of jumboArticles | async">
   <div class="jumbo-wrapper">
     <div class="jumbo-pictures">
       <img src="{{jumboArticle.picture}}">

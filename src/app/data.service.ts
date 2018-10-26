@@ -11,7 +11,7 @@ export class DataService {
   constructor(private database: AngularFireDatabase) {
     this.featuredArticleData = database.list('featuredArticles');
     this.jumboArticleData = database.list('jumboArticles');
-    this.jumboArticleData = database.list('featuredMovies');
+    this.featuredMovieData = database.list('featuredMovies');
   }
 
   getFeaturedArticleData(){

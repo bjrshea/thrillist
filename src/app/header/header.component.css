@@ -27,8 +27,9 @@
   margin-right: 50px;
 }
 
-.header-right li {
+.header-right i {
   list-style: none;
   display: inline;
   padding-right: 10px;
+  color: red;
 }

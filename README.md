@@ -10,6 +10,8 @@ If you're looking for good food, drink, or attractions in city that's unfamiliar
 
 As a class project, I re-created Thrillist's homepage using Angular. The site is constructed using multiple components and models to resemble the real thing.
 
+I also used this project to explore Firebase. All the data you see displayed on the page is stored there. I have not hidden the Firebase API key due to the fact that I would like to share this project without making someone plug-in their own data.
+
 ## Construction
 
 * **Model:** houses the construction that's used to build the data structures in the app component.

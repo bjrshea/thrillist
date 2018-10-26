@@ -36,11 +36,15 @@
   display:inline-block;
   color: white;
   font-family: 'Lato', sans-serif;
-  font-size: 8pt;
+  font-size: 10px;
   font-weight: 700;
   padding: 0 2%;
 }
 
 .featured-title {
   font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 14px;
+  padding: 0 10px;
 }

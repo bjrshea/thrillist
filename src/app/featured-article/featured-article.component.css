@@ -16,7 +16,6 @@
 }
 
 .featured-pictures img {
-  position: relative;
   width: 100%;
   height: 100px;
   background-repeat: no-repeat;
@@ -33,9 +32,13 @@
 
 .featured-category {
   background-color: #2E4B88;
+  line-height: 0%;
+  display:inline-block;
   color: white;
   font-family: 'Lato', sans-serif;
+  font-size: 8pt;
   font-weight: 700;
+  padding: 0 2%;
 }
 
 .featured-title {

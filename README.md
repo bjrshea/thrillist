@@ -58,3 +58,4 @@ From the project directory:
 ## Links
 
 * [Thrillist](https://www.thrillist.com/)
+* [My Re-Creation](https://thrillist-17996.firebaseapp.com/)

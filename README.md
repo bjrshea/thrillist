@@ -1,4 +1,4 @@
-# Thrillist Re-Creation
+# [Thrillist Re-Creation](https://thrillist-17996.firebaseapp.com/)
 
 #### Epicodus project, 10.19.18
 
@@ -21,7 +21,6 @@ I also used this project to explore Firebase. All the data you see displayed on 
 * **Featured Article Component:** pulls data from the `featuredArticles` array in the app component.
 * **Featured Movie Component:** pulls data from the `bigFeaturedMovies` array in the app component.
 * **Header Component:** hard coded footer information.
-
 
 ## Install Instructions
 
